@@ -1,0 +1,123 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ff7e5f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80% 20%; /* Tres cuartas partes para los productos y un cuarto para el carrito */
+    gap: 20px;
+}
+
+.title-products {
+    grid-column: span 2; /* Hacer que el título abarque las dos columnas */
+    text-align: center; /* Centrar el título */
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas para los productos */
+    gap: 18px;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cont img {
+    width: 60%;
+}
+
+article {
+    padding: 10px;
+    box-shadow: 0px 0px 1px #000;
+}
+
+.img-cont {
+    position: relative; 
+}
+
+.style-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.style-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #74d778; 
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición al pasar el mouse */
+}
+
+.style-button:hover {
+    background-color: #009e05; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.precio-final {
+    font-weight: bold;
+}
+
+.oferta-band {
+    position: absolute; 
+    top: 10px; 
+    left: 0px; 
+    padding: 5px; 
+    background-color: rgb(255, 24, 24);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transform: rotate(-45deg); /* Rota la banda para darle un aspecto diagonal */
+}
+
+.cart-column {
+    width: 100%; /* Ancho completo */
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo para distinguir */
+}
+
+.cart-column h2 {
+    margin-bottom: 10px;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-list li {
+    margin-bottom: 5px;
+}
+
+#check-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#check-btn:hover {
+    background-color: #0056b3;
+}
+
+

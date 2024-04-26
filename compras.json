@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "productId": 101,
+    "cantidad": 2,
+    "price": 10.99,
+    "hasOffer": true,
+    "timestamp": "2024-04-12T08:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "productId": 10,
+    "cantidad": 1,
+    "price": 15.99,
+    "hasOffer": false,
+    "timestamp": "2024-04-12T08:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "timestamp": "2024-04-26T01:30:06.802Z"
+  },
+  {
+    "id": 4,
+    "timestamp": "2024-04-26T01:30:16.001Z"
+  },
+  {
+    "id": 5,
+    "timestamp": "2024-04-26T01:30:25.844Z"
+  },
+  {
+    "id": 6,
+    "timestamp": "2024-04-26T01:30:55.538Z"
+  },
+  {
+    "id": 7,
+    "timestamp": "2024-04-26T01:31:10.072Z"
+  },
+  {
+    "compras": [
+      {
+        "cantidad": 1
+      }
+    ],
+    "id": 8,
+    "timestamp": "2024-04-26T01:36:53.726Z"
+  },
+  {
+    "compras": [
+      {
+        "cantidad": 3
+      }
+    ],
+    "id": 9,
+    "timestamp": "2024-04-26T01:37:44.349Z"
+  },
+  {
+    "compras": [
+      {
+        "cantidad": 1
+      }
+    ],
+    "id": 10,
+    "timestamp": "2024-04-26T01:46:36.012Z"
+  },
+  {
+    "compras": [
+      {
+        "cantidad": 1
+      }
+    ],
+    "id": 11,
+    "timestamp": "2024-04-26T01:48:33.935Z"
+  },
+  {
+    "compras": [
+      {
+        "cantidad": 1
+      }
+    ],
+    "id": 12,
+    "timestamp": "2024-04-26T02:00:42.830Z"
+  }
+]
