@@ -1,4 +1,5 @@
 Práctico Integrador Web II
+
 Desarrolle una página que consuma el listado de productos provisto por la API
 https://fakestoreapi.com/.
 Los artículos deben mostrarse en una grilla de 4 columnas. Cada producto debe mostrarse
